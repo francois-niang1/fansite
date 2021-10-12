@@ -1,0 +1,467 @@
+/* fansite*/
+.tete {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: end;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar{
+    padding-bottom: 5px;
+}
+
+.img {
+    width: auto;
+    height: 100px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button a{
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover{
+    background-color:#276e2a ;
+    color: black;
+    text-shadow:  0 0 10px rgb(255, 255, 255);
+
+}
+  
+.menu {
+    position: relative;
+    display: inline-block;
+}
+  
+.option {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.option a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.option a:hover {
+    background-color: #6d9dc9;
+}
+  
+.menu:hover .option {
+    display: block;
+    width: 200px;
+}
+  
+.menu:hover .button1 {
+    background-color: #3e8e41;
+}
+.intro {
+    margin-top: 10%;
+    margin-bottom: 3%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 2px rgb(250, 90, 32);
+}
+
+.title {
+    margin-top: 30%;
+    margin-bottom: 3%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(250, 90, 32);
+}
+
+.text {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+}
+
+.body1 {
+    background-image: url(https://w.wallhaven.cc/full/j8/wallhaven-j813vq.jpg);
+    background-attachment: fixed;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    border: white solid 50px;
+}
+
+.personnages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: white solid 2px;
+    border-radius: 15px;
+    background-color: white;
+    width: 1300px;
+    height: 1000px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+}
+
+.tab{
+    border: 1px solid black;
+    height: 917px;
+    width: 300px;
+}
+
+.info{
+    width: 300px;
+    height: 40px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #3e8e4193;
+}
+
+.element {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    width: 300px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.nom{
+    text-align: center;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    height: 40px;
+    width: 300px;
+    font-size: 30px;
+    background-color: #3e8e418e;
+}
+
+img.pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+img.pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+    width: 200px;
+    height: 489px;
+}
+
+.carac{
+    text-align: center;
+}
+
+.element{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lien{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    width:1300px ;
+    height: 400px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+}
+
+.gif{
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 2px 1px#0000003f ;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e8e41), to(#6d9dc9));
+    height: 230px;
+    margin-top: 10%;
+}
+.copy{
+    font-size: 30px;
+    color: white;
+}
+.imgfoot{
+    width: 170px;
+    height: 230px;
+}
+
+/*fansite2*/
+
+.containeur{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title1{
+    margin-top: 30%;
+    margin-bottom: 3%;
+    width: 320px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(250, 90, 32);
+}
+
+.title2{
+    margin-top: 30%;
+    margin-bottom: 3%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(250, 90, 32);
+    color: green;
+    text-shadow: rgb(177, 165, 60);
+}
+
+.title3{
+    margin-top: 30%;
+    margin-bottom: 3%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(250, 90, 32);
+    color: red;
+    text-shadow: 0 0 10px;
+}
+
+.title4{
+    margin-top: 30%;
+    margin-bottom: 3%;
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    font-size: 50px;
+    border-radius: 15px ;
+    box-shadow: 12px 12px 2px 1px rgb(250, 90, 32);
+    color: orange;
+    text-shadow: 0 0 10px white;
+}
+
+.text1 {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+.text2 {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+.text3 {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+.text4 {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+
+.gon{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 20px;
+
+}
+#manga{
+    display: flex;
+    flex-direction: row-reverse ;
+}
+
+
+.body2{
+    background-image: url(
+        https://static.posters.cz/image/1300/affiches-et-posters/hunter-x-hunter-book-key-art-i97793.jpg
+
+    );
+
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.t1{
+    color: white ;
+    text-shadow: 0 0 10px rgb(175, 13, 13);
+}
+
+.t2{
+    color: green;
+    text-shadow: 0 0 10px white;
+}
+
+.t3{
+    color: rgb(255, 166, 0);
+}
+  
+/*fansite3*/
+
+.body3{
+    background-image: url(
+        https://www.wallpapertip.com/wmimgs/28-284190_hunter-x-hunter.jpg
+
+    );
+    background-size: 125%;
+
+    background-attachment: fixed;
+}
+
+.plan1 {
+    width: 70%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+}
+
+.plan2 {
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-size: 25px;
+    border-radius: 15px;
+    box-shadow: 12px 12px 2px 1px#3e8e41 ;
+    text-shadow: 8px 8px 2px 1px black;
+    display: flex;
+    flex-direction: row;
+}
+
+.vidéo2{
+    display: flex;
+    flex-direction: row;
+}
+
+.vidéo1{
+    background-color: white;
+    border-radius: 30px;
+    border: 50px solid white;
+    box-shadow: 12px 12px 2px 1px #3e8e41;
+}
+
+/*fansite4*/
+
+.containeur1{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+    justify-content: center;  
+}
+
+.box{
+    height: 200px;
+}
+.form{
+   background-color: white;
+   border-radius: 15px ;
+   width: 1000px;
+   height: 750px;
+
+}
+
+.infocontact{
+    border-width: 1px;
+    border:outset rgba(128, 128, 128, 0.288) 1px ;
+    border-style: solid;
+    font-size: 25px;
+    color: #0c71c3;
+    background-color: rgb(255, 255, 255);
+    margin-left: 3%;
+    width: 45%;
+    height: 40%;
+    margin-top: 4%;
+}
+
+.body4{
+    background-image: url(https://i.redd.it/akjeab13rb841.png);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.sendcontact{
+    color:white;
+    padding: 2%;
+    background-color: #3e8e41;
+    cursor:pointer;
+    border-radius: 100px;
+    width: 20%;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 70%;
+}
+
